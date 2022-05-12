@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Montserrat:wght@400;700&display=swap');
+
+body {
+  background-color: #EFEFEF;
+  font-family: 'montserrat', 'sans-serif';
+  font-size: 16px;
+  color: #112B3C;
+  line-height: auto;
+}
+
+h1 {
+  color: #F66B0E;
+  font-size: 24px;
+  line-height: 12px;
+  /* font-weight: 700 */
+}
+
+h2 {
+  color: #205375;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+}
+
+a {
+  color: #1f6a9c;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #F66B0E;
+  transition-delay: 0.2s;
+}
+
+.container {
+  margin: 40px 100px;
+}
+
+.card {
+  margin: 25px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 5px 5px #112b3c27
+}
+
+.rounded-pic {
+  border-radius: 50%;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+/* background, border, border-radius and box-shadow */
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
